@@ -1,0 +1,32 @@
+body{
+
+    background-color: papayawhip;
+}
+ ul,header{
+    list-style: none;  
+}
+nav ul{
+    
+    display:flex;
+    justify-content: space-between;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: black;
+    height: 200px;
+    width: 1350px;
+}
+#word{
+    color: white;
+    
+    text-align: center;
+    
+}
+article{
+    display: grid;
+    grid-template-columns: 30% 70%;
+   
+}
